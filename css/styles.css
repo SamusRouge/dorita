@@ -14,17 +14,18 @@ body {
 
 .col-1{
   background-color: #00dee8;
-  float: right;
+
 }
 
 .col-2{
   background-color: #eeeeee;
-  float:center;
+ 
+  color: black;
 }
 
 .col-3{
   background-color: #111111;
-  float: left;
+ 
 }
 
 .row {
@@ -35,6 +36,28 @@ body {
   float: left;
 
 }
+ .logo{
+  background: url('../images/logo.png') no-repeat;
+  background-size: 90px;
+  width: 100px;
+  height: 100px;
+  margin: 5px 3px 5px 3px;
+  padding: 3px 0px 0px 0px;
+  float: left;
+ }
+
+.img{
+  background: url('../images/test-img.jpg') no-repeat;
+  width: 10em;
+  height: 10em;
+  margin: 5px 3px 5px 3px;
+  padding: 3px 0px 0px 0px;
+}
+
+
+ section{
+  clear:left;
+ }
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
@@ -165,5 +188,10 @@ body {
   .col-sm-12 {
     width: 100%;
   }
+
+.visible-sm
+{
+  display: none !important;
+}
 }
 
