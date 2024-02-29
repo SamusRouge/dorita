@@ -19,8 +19,7 @@ body {
 
 .col-2{
   background-color: #eeeeee;
- 
-  color: black;
+   color: black;
 }
 
 .col-3{
@@ -28,6 +27,19 @@ body {
  
 }
 
+.col-2{
+  background-color: #eeeeee;
+   color: black;
+}
+
+.col-3{
+  background-color: #111111;
+ 
+}
+
+#clear-left{
+  clear: left;
+}
 .row {
   margin-right: -15px;
   margin-left: -15px;
@@ -37,7 +49,7 @@ body {
 
 }
  .logo{
-  background: url('../images/logo.png') no-repeat;
+  background: url('../images/logo_c.png') no-repeat;
   background-size: 90px;
   width: 100px;
   height: 100px;
@@ -53,7 +65,9 @@ body {
   margin: 5px 3px 5px 3px;
   padding: 3px 0px 0px 0px;
 }
-
+p{
+  text-align: justify;
+}
 
  section{
   clear:left;
