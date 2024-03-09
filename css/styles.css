@@ -43,17 +43,18 @@ color: #4D4D4D;
 }
 .col-1{
 background-color: #00dee8;
-
+height: 280px;
 }
 
 .col-2{
   background-color: #eeeeee;
    color: black;
+   height: 280px;
 }
 
 .col-3{
   background-color: #111111;
- 
+  height: 280px;
 }
 
 .col-2{
