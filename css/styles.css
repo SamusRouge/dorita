@@ -8,12 +8,41 @@ body {
 
 }
 
+
+
 .col-1, .col-2, .col-3 {
   float:left;
 }
 
+
+#documentos{
+  background-image: linear-gradient( to bottom,  rgba(245, 246, 252, 0.52), rgba(0, 222, 232, 0.73)), url("../images/documentos.jpg");
+color: #4D4D4D;
+}
+
+#vehiculo{
+  background-image: linear-gradient( to bottom,  rgba(245, 246, 252, 0.52), rgba(157,157,157, 0.73)), url("../images/vehiculo.jpg");
+color: #4D4D4D;
+}
+
+#certificados{
+  background-image: linear-gradient( to bottom,  rgba(245, 246, 252, 0.52), rgba(100,100,100, 0.73)), url("../images/certificado.jpg");
+}
+
+.seguridad{
+  background-image: linear-gradient( to bottom,  rgba(245, 246, 252, 0.52), rgba(157,157,157, 0.73)), url("../images/seguridad-social.jpg");
+}
+
+#rut{
+  background-image: linear-gradient( to bottom,  rgba(245, 246, 252, 0.52), rgba(100,100,100, 0.73)), url("../images/rut.png");
+}
+
+#contador{
+  background-image: linear-gradient( to bottom,  rgba(245, 246, 252, 0.52), rgba(0, 222, 232, 0.73)), url("../images/contador.jpg");
+color: #4D4D4D;
+}
 .col-1{
-  background-color: #00dee8;
+background-color: #00dee8;
 
 }
 
@@ -40,6 +69,7 @@ body {
 #clear-left{
   clear: left;
 }
+
 .row {
   margin-right: -15px;
   margin-left: -15px;
@@ -72,6 +102,14 @@ p{
  section{
   clear:left;
  }
+
+
+.panel-footer {
+  padding: 10px 15px;
+  border-top: 1px solid #ddd;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
