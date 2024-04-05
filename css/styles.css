@@ -13,8 +13,11 @@ header{
 background: rgb(173,173,173);
 background: linear-gradient(0deg, rgba(173,173,173,1) 0%, rgba(0,0,0,0) 100%, rgba(0,212,255,0) 100%);
   margin: 0;
+text-decoration: none;
 }
-
+a{
+  text-decoration: none;
+}
 h3{
   font-size: 2.5em;
 }
@@ -43,7 +46,7 @@ color: #4D4D4D;
   text-shadow: 1px 1px 2px black;
 }
 
-.seguridad{
+#seguridad{
   background-image: linear-gradient( to bottom,  rgba(245, 246, 252, 0.52), rgba(157,157,157, 0.73)), url("../images/seguridad-social.jpg");
 }
 
@@ -82,7 +85,7 @@ height: 350px;
  
 }
 
-#clear-left{
+.clear-left{
   clear: left;
 }
 
@@ -125,6 +128,16 @@ p{
   border-top: 1px solid #ddd;
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
+}
+
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
+.navbar-toggle .icon-bar + .icon-bar {
+  margin-top: 4px;
 }
 
 /********** Large devices only **********/
